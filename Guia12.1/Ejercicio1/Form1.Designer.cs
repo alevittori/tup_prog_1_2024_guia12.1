@@ -41,6 +41,7 @@
             this.btn_addCompetidor.TabIndex = 0;
             this.btn_addCompetidor.Text = "Agregar Competidor";
             this.btn_addCompetidor.UseVisualStyleBackColor = true;
+            this.btn_addCompetidor.Click += new System.EventHandler(this.btn_addCompetidor_Click);
             // 
             // btn_cargarTiempo
             // 
